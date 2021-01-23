@@ -52,11 +52,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {},
-Hello (the user), my name is Padoru (≧▽≦)
+Hello , my name is Padoru (≧▽≦)
 I'm an Anime themed group management bot which developed by @JaydenKun ( ꈍᴗꈍ) and @Wanacoins  (◡ ω ◡)
 Feel free to add me in any of your groups (✿^‿^)
-You can find my list of available commands with /help. . Feel free to add me to your groups. 
-You can find my list of available commands with /help.
+You can find my list of available commands with /help. . Feel free to add me to your groups.
 """
 
 HELP_STRINGS = """
