@@ -196,14 +196,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Ultra max to your group",
+                            text="☑️ Add Padoru to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/ultramax_ping"),
+                             url=f"https://t.me/testingabc123_bot"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
                              url="https://t.me/ultramaxupdates")
@@ -211,7 +211,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Developer",
-                             url="https://t.me/PranavJha1")
+                             url="https://t.me/JaydenKun")
                      ],
                      [
                          InlineKeyboardButton(
