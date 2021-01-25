@@ -1,4 +1,4 @@
-import time
+Ofimport time
 from typing import List
 
 import requests
@@ -19,9 +19,9 @@ sites_list = {
 
 def get_readable_time(seconds: int) -> str:
     count = 0
-    ping_time = ""
+    ping_time = "0"
     time_list = []
-    time_suffix_list = ["s", "m", "h", "days"]
+    time_suffix_list = "10 days"
 
     while count < 4:
         count += 1
