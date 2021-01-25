@@ -52,8 +52,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {},
-Hello , my name is Padoru (≧▽≦)
-I'm an Anime themed group management bot which developed by @JaydenKun ( ꈍᴗꈍ) and @Wanacoins  (◡ ω ◡)
+Hello , my name is ultra max test system
+I'm a group management bot which developed by @Wanacoins
 Feel free to add me in any of your groups (✿^‿^)
 You can find my list of available commands with /help.
 """
@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ULTRAMAX_IMG = "https://telegra.ph/file/3fd7dd9ebbc0d0f572f6e.jpg"
+ULTRAMAX_IMG = ""
 
 
 IMPORTED = {}
