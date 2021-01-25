@@ -83,7 +83,7 @@ def gban(update: Update, context: CallbackContext):
 
     if int(user_id) in DEMONS:
         message.reply_text(
-            "OOOH someone's trying to gban a Demon Disaster! *grabs popcorn*")
+            "Ooof someone's trying to gban a Demon Disaster! *🍿🍿Grabs Popcorn🍿🍿*")
         return
 
     if int(user_id) in TIGERS:
@@ -95,7 +95,7 @@ def gban(update: Update, context: CallbackContext):
         return
 
     if user_id == bot.id:
-        message.reply_text("You uhh...want me to punch myself?")
+        message.reply_text("-_- So funny, Lets gban myself 😒😑, Never forget, If you are Bad, then I'm your Dad. 👿👿")
         return
 
     if user_id in [777000, 1087968824]:
