@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ULTRAMAX_IMG = ""
+ULTRAMAX_IMG = "https://telegra.ph/file/c7deb0bd3fd1c75987178.jpg"
 
 
 IMPORTED = {}
@@ -548,7 +548,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Using long polling.")
+        LOGGER.info("I am up.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
