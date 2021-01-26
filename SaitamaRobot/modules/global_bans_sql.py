@@ -140,7 +140,7 @@ def gban(update: Update, context: CallbackContext):
 
         return
 
-    message.reply_text("On it!")
+    message.reply_text("User have been banned in 9282726282662282927636363621 chats✅!")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
